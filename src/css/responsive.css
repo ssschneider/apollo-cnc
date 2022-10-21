@@ -112,7 +112,8 @@
     }
 
     footer .footer-informacoes-basicas {
-        text-align: center;
+        display: flex;
+        flex-direction: column;
     }
 
     footer img {
