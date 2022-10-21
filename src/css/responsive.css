@@ -1,0 +1,136 @@
+@media (max-width: 768px) {
+    .hero {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .hero .linha-1 .imagem-linha-1 {
+        width: 300px;
+        animation: float 1s ease 0s infinite normal forwards;
+        margin: 0 auto;
+        padding-top: 10px;
+    }
+
+    .hero .linha-2 .imagem-linha-2 {
+        margin-top: 0;
+        width: 300px;
+        margin: 0 auto;
+        animation: float 1s ease 0s infinite normal forwards;
+        padding-bottom: 10px;
+    }
+
+    @keyframes float {
+        0% , 100% {
+            transform: translateY(0px);
+        }
+    
+        50% {
+            transform: translateY(5px);
+        }
+    }
+
+    .sobre {
+        gap: 32px;
+    }
+
+    .sobre .perfil img, .sobre .conteudo-sobre p {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .servicos .servicos-informacoes {
+        row-gap: 24px;
+    }
+}
+
+@media (max-width: 425px) {
+    header {
+        flex-direction: column;
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .sobre {
+        margin: 80px auto;
+    }
+
+    .sobre .perfil img {
+        width: 200px;
+        margin-left: 50%;
+        text-align: center;
+    }
+
+    .sobre .conteudo-sobre p {
+        max-width: 90%;
+        font-size: 2.4rem;
+        text-align: justify;
+        padding: 0 12px;
+    }
+
+    .servicos {
+        padding: 80px 40px;
+    }
+
+    .servicos h2 {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .servicos-informacoes .servico img, .servicos-informacoes .servico p {
+        max-width: 300px;
+    }
+
+    .contato img {
+        max-width: 200px;
+    }
+
+    .contato .contato-conteudo h2 {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .contato .contato-conteudo a {
+        font-size: 2.4rem;
+        padding: 12px 24px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    footer .footer-informacoes-basicas {
+        text-align: center;
+    }
+
+    footer img {
+        max-width: 100px;
+        margin-bottom: 24px;
+        text-align: center;
+    }
+
+    footer .redes-sociais ul li a i {
+        margin-bottom: 16px;
+    }
+
+    footer .copyright {
+        flex-direction: column;
+    }
+
+    footer .copyright div {
+        text-align: center;
+        margin-top: 24px;
+    }
+}

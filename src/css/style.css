@@ -1,0 +1,263 @@
+body {
+    background-color: var(--golden);
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 32px;
+}
+
+header img {
+    border-radius: 100%;
+    width: 150px;
+    padding: 10px;
+    transition: 0.8s ease-in-out;
+}
+
+header img:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    opacity: 0.9;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header nav ul li {
+    margin-left: 5px;
+    font-size: 3.5rem;
+}
+
+header nav ul li a {
+    color: var(--black);
+    font-weight: 600;
+    padding: 0 10px;
+    transition: 0.5s ease-in-out;
+}
+
+header nav ul li a.btn-contato {
+    background-color: var(--black);
+    color: var(--golden);
+    padding: 8px 16px;
+    border-radius: 16px;
+}
+
+header nav ul li a:hover {
+    letter-spacing: 2px;
+}
+
+.hero {
+    background-color: var(--black);
+}
+
+.hero .linha-1, .hero .linha-2 {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.hero .linha-1 .imagem-linha-1 {
+    width: 230px;
+    animation: right 1s ease 0s infinite normal forwards;
+}
+
+.hero .linha-2 .imagem-linha-2 {
+    margin-top: 16px;
+    width: 230px;
+    animation: left 1s ease 0s infinite normal forwards;
+}
+
+@keyframes right {
+    0% , 100% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(45px);
+    }
+}
+
+@keyframes left {
+    0% , 100% {
+        transform: translateX(45px);
+    }
+
+    50% {
+        transform: translateX(0px);
+    }
+}
+
+.sobre {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 120px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sobre .perfil img {
+    max-width: 400px;
+    border-radius: 100%;
+}
+
+.sobre .conteudo-sobre p {
+    max-width: 600px;
+    font-size: 3.2rem;
+    text-align: center;
+}
+
+.servicos {
+    background-color: var(--black);
+    padding: 80px 192px;
+}
+
+.servicos h2 {
+    color: var(--golden);
+    font-size: 6rem;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.servicos .servicos-informacoes {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 12px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.servicos-informacoes .servico {
+    padding: 12px;
+    transition: 0.8s ease-in-out;
+}
+
+.servicos-informacoes .servico img {
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+.servicos-informacoes .servico h3 {
+    color: var(--golden);
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin: 16px 0 8px;
+}
+
+.servicos-informacoes .servico p {
+    color: var(--white);
+    font-size: 2.4rem;
+    max-width: 400px;
+    text-align: justify;
+}
+
+.servicos-informacoes .servico:hover {
+    border: 1px solid var(--golden);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.contato {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+    margin: 80px 0;
+}
+
+.contato img {
+    border-radius: 100%;
+    max-width: 275px;
+}
+
+.contato .contato-conteudo h2 {
+    color: var(--black);
+    font-weight: 600;
+    font-size: 4.8rem;
+    margin-bottom: 32px;
+}
+
+.contato .contato-conteudo a {
+    background-color: var(--black);
+    color: var(--golden);
+    font-size: 3.4rem;
+    font-weight: 600;
+    padding: 12px 24px;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+}
+
+.contato .contato-conteudo a:hover {
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--black);
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 32px;
+}
+
+footer .footer-informacoes-basicas {
+    display: flex;
+    align-items: center;
+    column-gap: 150px;
+}
+
+footer img {
+    border-radius: 100%;
+    max-width: 150px;
+    padding: 15px;
+}
+
+footer .redes-sociais ul {
+    display: flex;
+}
+
+footer .redes-sociais ul li a {
+    color: var(--white);
+    margin: 0 15px;
+    padding: 12px;
+    transition: 0.5s ease-in-out;
+}
+
+footer .redes-sociais ul li a i {
+    font-size: 3rem;
+}
+
+footer .redes-sociais ul li a:hover {
+    color: var(--golden);
+}
+
+footer .copyright {
+    display: flex;
+    flex-direction: column;
+    color: var(--white);
+    font-size: 2.4rem;
+}
+
+footer .copyright div {
+    text-align: right;
+}
+
+footer .copyright p {
+    color: var(--white);
+    margin-top: 24px;
+    font-size: 1.8rem;
+} 
+
+footer .copyright a {
+    color: var(--golden);
+    font-size: 2rem;
+}
+
+*::selection {
+    background-color: var(--golden);
+    color: var(--black);
+}
