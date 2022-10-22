@@ -132,7 +132,7 @@ header nav ul li a:hover {
 
 .servicos-informacoes .servico {
     padding: 12px;
-    transition: 0.8s ease-in-out;
+    transition: 1s ease-in-out;
 }
 
 .servicos-informacoes .servico img {
