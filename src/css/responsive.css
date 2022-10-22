@@ -97,7 +97,7 @@
     }
 
     .servicos {
-        padding: 80px 40px;
+        padding: 80px 30px;
     }
 
     .servicos h2 {
@@ -107,6 +107,7 @@
 
     .servicos-informacoes .servico {
         margin: 0 auto;
+        padding: 12px;
     }
 
     .servicos-informacoes .servico img, .servicos-informacoes .servico h3,.servicos-informacoes .servico p {
@@ -153,5 +154,35 @@
     footer .copyright div {
         text-align: center;
         margin-top: 24px;
+    }
+}
+
+@media (max-width: 350px) {
+    .servicos {
+        padding: 40px;
+    }
+
+    .servicos h2 {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .servicos-informacoes .servico {
+        margin: 0 auto;
+    }
+
+    .servicos-informacoes .servico img, .servicos-informacoes .servico h3,.servicos-informacoes .servico p {
+        width: 200px;
+    }
+
+    .servicos-informacoes .servico h3 {
+        font-size: 2.4rem;
+    }
+    .servicos-informacoes .servico p {
+        font-size: 1.8rem;
+    }
+
+    footer .copyright p {
+        text-align: center;
     }
 }
