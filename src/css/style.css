@@ -48,6 +48,7 @@ header nav ul li a.btn-contato {
 
 header nav ul li a:hover {
     letter-spacing: 2px;
+    color: var(--black);
 }
 
 .hero {
