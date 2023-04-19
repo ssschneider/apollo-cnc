@@ -1,31 +1,39 @@
+<h1 align="center"> Apollo CNC </h1>
 
-# Apollo CNC
+<p align="center">
+Página desenvolvida durante trabalho freelance para a Apollo CNC, uma empresa familiar de usinagem em madeiras premium <br/>
+</p>
 
-### Freelance para a Apollo CNC, uma empresa familiar de usinagem em madeiras premium.
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-deploy">Deploy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-english-version">English Version</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
 
---------------
+<p align="center">
+  <img alt="Preview" src="src/gifs/desktop.gif" width="100%">
+</p>
 
-## Sobre o projeto
+## 🚀 Tecnologias
 
-Site da empresa, onde desenvolvi todo o design e código de acordo com os requisitos definidos pelos Stakeholders.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
---------------
+- HTML e CSS
+- JavaScript
+- Bootstrap
+- Git e Github
+- Figma
 
-## Tecnologias Usadas
+## 💻 Deploy
 
-Para completar o desafio usei:
- - HTML
- - CSS
- - Bootstrap
- - Javascript
- - Figma
+> [Clique aqui para navegar para o projeto!](https://ssschneider.github.io/apollo-cnc/)
 
---------------
- 
-## O Projeto Rodando
+## 🌎 English Version
 
-#### Versão Desktop
-![](src/gifs/desktop.gif)
+Apollo CNC is a freelance job for Apollo CNC, a premium wood machining family business. To do that, I've used:
+- HTML, CSS, JS, Bootstrap, Git, Github and Figma
 
-#### Versão Mobile
-![](src/gifs/mobile.gif)
+> You can check out the deploy by [clicking here](https://ssschneider.github.io/apollo-cnc/) 
+
+---
+### Desenvolvido por Sarah Schneider 🖖
